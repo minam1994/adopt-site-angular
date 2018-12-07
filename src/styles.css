@@ -1,0 +1,143 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+/* Navigation */
+
+
+.logo{
+    font-family: 'Shrikhand', cursive;
+    font-size: 200%;
+}
+
+nav a:hover {
+    text-decoration: none;
+    border-top: 2px solid #7FCAAC;
+}
+
+/* Home */
+
+.backgroundImage {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(to right, rgba(127, 202, 175, .7),rgba(127, 202, 175, .7)), url("./assets/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.home-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5%;
+    color:#fff;
+    text-align: center;
+}
+
+.home-text h2 {
+    font-size: 300%;
+}
+.home-text p {
+    font-size: 150%;
+    margin-bottom: 10%;
+}
+
+/* Adoption pages*/
+
+.container {
+    margin-top: 5%;
+}
+.container-boxes {
+    margin: 5%;
+}
+
+.boxes-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.box-adopt {
+    width: 19rem;
+    height: 25rem !important;
+    margin: 35px 0;
+}
+
+.pet img {
+    width: 100%;
+}
+
+
+.adopt-text {
+    padding: 3%;
+    text-align: center;
+    background: linear-gradient(to right, rgb(75, 165, 129), rgb(113, 216, 175), rgb(75, 165, 129));
+    color: #fff;
+    line-height: 4;
+    
+}
+
+.adopt-text img:hover {
+    animation: arrowDown 2s infinite;
+}
+
+@keyframes arrowDown {
+    0% {transform: translateY(0); }
+
+    50% {transform: translateY(20px);}
+
+    10% {transform: translateY(0);}
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-body h4{
+    color:rgb(99, 189, 153);
+    font-weight: bold;
+}
+
+.card-body a:link,
+.card-body a:visited {
+    color: #000;
+    padding: 0 3px 3px;
+    border-bottom: 2px solid rgb(99, 189, 153);
+    text-decoration: none;
+}
+
+.card-body a:hover,
+.card-body a:active {
+    color: rgb(99, 189, 153);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card-body button {
+    color: rgb(99, 189, 153);
+    border-color: rgb(99, 189, 153);
+    margin-top: 10%;
+    font-weight: bold;
+    background: transparent;
+}
+
+.card-body button:hover{
+    background-color: rgb(99, 189, 153);
+    border-color: rgb(99, 189, 153);
+    color: #fff;
+}
+
+.card-body button:target {
+    background-color: rgb(99, 189, 153);
+}

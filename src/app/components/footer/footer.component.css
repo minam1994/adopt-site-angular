@@ -1,0 +1,38 @@
+footer {
+    background-color: #4FAB86;
+    text-align: center;
+    padding: 2%;
+    color: #fff;
+    position: relative;
+}
+
+.sponsored {
+
+}
+
+footer h5 {
+    font-family: 'Monoton', cursive;
+    padding-right: 2%;
+    display: inline;
+    font-size: 100%;
+}
+
+footer h5:last-of-type {
+    padding-right: 0;
+}
+
+footer span {
+    padding-left: 2%;
+}
+
+footer p {
+    padding-top: 3%;
+    content: '';
+    clear: both;
+}
+
+hr {
+    border:none;
+    height:1px;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#fff), to(transparent));
+}

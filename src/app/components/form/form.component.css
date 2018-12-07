@@ -1,0 +1,44 @@
+.wrong,
+#invalid {
+    color: red;
+    font-size: 80%;
+}
+
+form {
+    margin-bottom: 2%;
+}
+
+h3 {
+    font-size: 100%;
+    margin: 0;
+}
+
+#valid {
+    display: none;
+    text-align: center;
+}
+
+#valid img {
+    margin: 3% 0;
+}
+
+#valid p {
+    margin-bottom: 3%;
+}
+
+.btn {
+    color: rgb(99, 189, 153);
+    border: 1px solid rgb(99, 189, 153);
+    background-color: transparent;
+
+}
+
+.btn:hover{
+    background-color: rgb(99, 189, 153);
+    border-color: rgb(99, 189, 153);
+    color: #fff;
+}
+
+.btn:target {
+    background-color: rgb(99, 189, 153);
+}

@@ -1,0 +1,27 @@
+<div class="adopt-text shadow-sm">
+  <h2>Interested in adopting a cat?</h2>
+  <p>See our list down below.</p>
+  <p><img src="../../../assets/icons/arrow-down-sign-to-navigate.png" alt="Down Arrow Icon by Flaticon"></p>
+</div>
+<div class="container-boxes">
+  <div class="boxes-flex" >
+    <div *ngFor="let cat of cats" class="box-adopt">
+        <div class="card shadow-sm pet">
+            <div class="card-header">
+              <img src="{{ cat.image }}">
+            </div>
+            <div class="card-body">
+                <h4>{{ cat.name}}</h4>
+                <a href="#"routerLink="/cats" class="btn btn-link" (click)="cat.hidden = !cat.hidden">Show informations</a>
+              <ul class="list-unstyled mt-3 mb-4" [hidden]="cat.hidden">
+                <li>{{ cat.gender}}</li>
+                <li>{{ cat.age }}</li>
+                <li>{{ cat.status }}</li>
+              </ul>
+              <button type="button" (click)="adopt(cat.id)" [disabled]="disable" class="btn btn-lg btn-block">Adopt</button>
+            </div>
+          </div>
+
+    </div>
+  </div>
+</div>

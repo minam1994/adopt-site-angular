@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Emma",
+        "age": "2 years old",
+        "gender": "Female",
+        "image": "https://images.pexels.com/photos/169524/pexels-photo-169524.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "status": "Available",
+        "hidden": true
+    },
+    {
+        "id": 2,
+        "name": "Milo",
+        "age": "4 years old",
+        "gender": "Male",
+        "image": "https://images.pexels.com/photos/89249/pexels-photo-89249.png?auto=compress&cs=tinysrgb&h=650&w=940",
+        "status": "Available",
+        "hidden": true
+    },
+    {
+        "id": 3,
+        "name": "Dexter",
+        "age": "6 months old",
+        "gender": "Male",
+        "image": "https://images.pexels.com/photos/1174166/pexels-photo-1174166.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "status": "Available",
+        "hidden": true
+    },
+    {
+        "id": 4,
+        "name": "Molly",
+        "age": "2 years old",
+        "gender": "Female",
+        "image": "https://images.pexels.com/photos/1487665/pexels-photo-1487665.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "status": "Available",
+        "hidden": true
+    },
+    {
+        "id": 5,
+        "name": "Oli",
+        "age": "4 months old",
+        "gender": "Male",
+        "image": "https://images.pexels.com/photos/130763/pexels-photo-130763.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "status": "Available",
+        "hidden": true
+    },
+    {
+        "id": 6,
+        "name": "Jason",
+        "age": "6 years old",
+        "gender": "Male",
+        "image": "https://images.pexels.com/photos/1133082/pexels-photo-1133082.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "status": "Available",
+        "hidden": true
+    }
+]

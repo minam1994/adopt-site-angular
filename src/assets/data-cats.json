@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Toby",
+        "age": "4 years old",
+        "gender": "Male",
+        "image": "https://images.pexels.com/photos/747795/pexels-photo-747795.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "status": "Available",
+        "hidden": true
+    },
+    {
+        "id": 2,
+        "name": "Lucy",
+        "age": "7 months old",
+        "gender": "Female",
+        "image": "https://images.pexels.com/photos/1234096/pexels-photo-1234096.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "status": "Available",
+        "hidden": true
+    },
+    {
+        "id": 3,
+        "name": "Sindy",
+        "age": "2 year old",
+        "gender": "Female",
+        "image": "https://images.pexels.com/photos/1047369/pexels-photo-1047369.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "status": "Available",
+        "hidden": true
+    },
+    {
+        "id": 4,
+        "name": "Jasper",
+        "age": "3 years old",
+        "gender": "Male",
+        "image": "https://images.pexels.com/photos/177809/pexels-photo-177809.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "status": "Available",
+        "hidden": true
+    },
+    {
+        "id": 5,
+        "name": "Tiger",
+        "age": "4 months old",
+        "gender": "Male",
+        "image": "https://images.pexels.com/photos/290164/pexels-photo-290164.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "status": "Available",
+        "hidden": true
+    },
+    {
+        "id": 6,
+        "name": "Oliver",
+        "age": "5 years old",
+        "gender": "Male",
+        "image": "https://images.pexels.com/photos/1321514/pexels-photo-1321514.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "status": "Available",
+        "hidden": true
+    }
+]
